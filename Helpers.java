@@ -19,19 +19,19 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Helpers {
-	public static final String MAIN_URL    = "https://zingmp3.vn";
-	public static final String XHR_URL     = "https://m.zingmp3.vn/xhr";
-	public static final String API_V5_URL  = "https://m.zingmp3.vn/api";
-	public static final String MP3_STATIC  = "https://static-zmp3.zadn.vn/skins/zmp3-mobile-v5.2";
-	public static final String PHOTO_URL   = "https://photo-zmp3.zadn.vn/";
+	private static final String MAIN_URL    = "https://zingmp3.vn";
+	private static final String XHR_URL     = "https://m.zingmp3.vn/xhr";
+	private static final String API_V5_URL  = "https://m.zingmp3.vn/api";
+	private static final String MP3_STATIC  = "https://static-zmp3.zadn.vn/skins/zmp3-mobile-v5.2";
+	private static final String PHOTO_URL   = "https://photo-zmp3.zadn.vn/";
 
-	private static final String URL_DETAIL       = "/chart-realtime/get-detail";
-	private static final String URL_SOUNG_INFO   = "/song/get-song-info";
-	private static final String URL_LYRIC        = "/song/get-lyric";
-	private static final String URL_STREAMMING   = "/song/get-streamings";
-	private static final String URL_PLAYLIST     = "/playlist/get-playlist-detail";
-	private static final String URL_SEARCH       = "/api/search";
-	private static final String URL_SEARCH_MULTI = "/search/multi";
+	public static final String URL_DETAIL       = "/chart-realtime/get-detail";
+	public static final String URL_SOUNG_INFO   = "/song/get-song-info";
+	public static final String URL_LYRIC        = "/song/get-lyric";
+	public static final String URL_STREAMMING   = "/song/get-streamings";
+	public static final String URL_PLAYLIST     = "/playlist/get-playlist-detail";
+	public static final String URL_SEARCH       = "/api/search";
+	public static final String URL_SEARCH_MULTI = "/search/multi";
 
 	public static final String REGEX_URL    = "(https?:)?\\/\\/(.*)";
 
