@@ -4,11 +4,13 @@ API Zing MP3 | RedT
 
 
 
+
+
 Code triển khai các api lấy thông tin nhạc của zing mp3 như lấy thông tin: bài hát, link tải, playlist, zingchart...
 
 
 
-// Ví dụ lấy 100 bài hát thịnh hành hiện tại
+ Ví dụ lấy 100 bài hát thịnh hành hiện tại
 
 
 
@@ -23,8 +25,10 @@ Code triển khai các api lấy thông tin nhạc của zing mp3 như lấy th�
 
 
 
- //Lấy thông tin bài hát, link tải, ảnh bìa,... của bài hát cho trước
- //For example, get song information
+ Lấy thông tin bài hát, link tải, ảnh bìa,... của bài hát cho trước
+
+
+ For example, get song information
 
 
 
@@ -39,7 +43,7 @@ Code triển khai các api lấy thông tin nhạc của zing mp3 như lấy th�
 
 
 
-// Các API khác, 
+ Các API khác, 
     // API
 
 	// get Zing Chart
