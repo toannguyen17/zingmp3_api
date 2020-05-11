@@ -25,11 +25,11 @@ Code triển khai các api lấy thông tin nhạc của zing mp3 như lấy th�
 
 
 
+
+
+
+
  Lấy thông tin bài hát, link tải, ảnh bìa,... của bài hát cho trước
-
-
- For example, get song information
-
 
 
 
@@ -75,5 +75,21 @@ Code triển khai các api lấy thông tin nhạc của zing mp3 như lấy th�
     // param q=???????
 
 
+
+
+
+// Code demo
+
+
 ![Code Test](https://raw.githubusercontent.com/toannguyen2/zingmp3_api/master/demo.png)
+
+
+
+
+
+
+
+API trả về json mong muốn
+
+
 ![API trả về json](https://raw.githubusercontent.com/toannguyen2/zingmp3_api/master/json.png)
