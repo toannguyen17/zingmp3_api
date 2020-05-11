@@ -3,9 +3,14 @@
 API Zing MP3 | RedT
 
 
+
 Code triển khai các api lấy thông tin nhạc của zing mp3 như lấy thông tin: bài hát, link tải, playlist, zingchart...
 
+
+
 // Ví dụ lấy 100 bài hát thịnh hành hiện tại
+
+
 
 	 Map<String, String> paramChart = new HashMap<String, String>();
 	 paramChart.put("type", "song");
@@ -16,13 +21,21 @@ Code triển khai các api lấy thông tin nhạc của zing mp3 như lấy th�
 	 System.out.println(chartRealtime);
 
 
+
+
  //Lấy thông tin bài hát, link tải, ảnh bìa,... của bài hát cho trước
  //For example, get song information
+
+
+
+
 	 Map<String, String> soungInfoParam = new HashMap<String, String>();
 	 soungInfoParam.put("id", "ZWBWAIDA");
 
 	 String soungInfo = Helpers.buildAPIURL(Helpers.URL_SOUNG_INFO, soungInfoParam);
 	 System.out.println(soungInfo);
+
+
 
 
 
